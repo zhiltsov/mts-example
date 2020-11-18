@@ -46,7 +46,7 @@ func TestInMemoryCache_GetOrSet(t *testing.T) {
 		CacheSize,
 	)
 	fmt.Println("Время работы каждого замыкания - 1 секунда. time.Sleep(time.Second)")
-	fmt.Printf("Ожидайте около %d секунд(а,ы)\n\n", CacheSize)
+	fmt.Printf("Ожидайте несколько секунд\n\n")
 
 	for i := 0; i < GoCounts; i++ {
 		i := i
